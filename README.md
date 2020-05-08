@@ -6,6 +6,4 @@ The project is divided into 3 main components:
 - VHCI - this is a virtual USB host controller; keyboard, mouse and other system components are provided by this component (other drivers use this host controller to provide more functionality, however USB drivers are not in this project's scope).
 - Audio - a driver for the T2 audio interface, currently only audio output is supported.
 
-Please note that the `master` branch does not currently support system suspend and resume.
-
 If you want to support me, you can do so by donating to me on PayPal: https://paypal.me/mcmrarm
